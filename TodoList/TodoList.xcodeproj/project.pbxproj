@@ -30,9 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6A60727E2E697982000BFFA8 /* TodoList */ = {
+		6A60727E2E697982000BFFA8 /* TodoListView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoList;
+			path = TodoListView;
 			sourceTree = "<group>";
 		};
 		6A6072902E697985000BFFA8 /* TodoListTests */ = {
@@ -75,7 +75,8 @@
 		6A6072732E697982000BFFA8 = {
 			isa = PBXGroup;
 			children = (
-				6A60727E2E697982000BFFA8 /* TodoList */,
+				6A6072AB2E699260000BFFA8 /* Preview Content */,
+				6A6072AA2E698EE7000BFFA8 /* TodoList */,
 				6A6072902E697985000BFFA8 /* TodoListTests */,
 				6A60729A2E697985000BFFA8 /* TodoListUITests */,
 				6A60727D2E697982000BFFA8 /* Products */,
@@ -90,6 +91,21 @@
 				6A6072972E697985000BFFA8 /* TodoListUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6072AA2E698EE7000BFFA8 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				6A60727E2E697982000BFFA8 /* TodoListView */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		6A6072AB2E699260000BFFA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +124,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6A60727E2E697982000BFFA8 /* TodoList */,
+				6A60727E2E697982000BFFA8 /* TodoListView */,
 			);
 			name = TodoList;
 			packageProductDependencies = (
